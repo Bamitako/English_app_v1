@@ -41,6 +41,6 @@ src/
 
 ## 画像について
 
-各単語は `image` に写真のパスを持てる。まだ写真を置いていない単語は、絵文字と
-シチュエーション文で代替表示される。写真の追加手順は
-[`public/images/README.md`](public/images/README.md) を参照。
+`src/images/` に `<単語id>.jpg` の名前で置くと、その単語の問題に自動で表示される。
+コードの編集は不要。置いていない単語は絵文字とシチュエーション文で代替表示されるので、
+1語ずつ差し替えていける。詳細は [`src/images/README.md`](src/images/README.md) を参照。

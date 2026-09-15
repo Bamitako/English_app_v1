@@ -7,8 +7,6 @@ export type Word = {
   word: string
   meaning: string
   pos: PartOfSpeech
-  /** Path to a stock photo under /images. Falls back to `emoji` + `context` when absent. */
-  image?: string
   /** Situation text shown with the image to narrow down an otherwise ambiguous picture. */
   context: string
   emoji: string

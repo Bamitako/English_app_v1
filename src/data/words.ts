@@ -4,8 +4,7 @@ import type { Word } from '../types'
  * Selection rules from the spec: common in conversation, recognisable on sight,
  * but slow to produce from scratch, and expressible through a picture or a situation.
  *
- * `image` is left unset until the 50 stock photos are dropped into /public/images.
- * See public/images/README.md for the expected filenames.
+ * Photos are matched to these ids by filename — see src/images/README.md.
  */
 export const WORDS: Word[] = [
   // --- 動詞 20 ---
