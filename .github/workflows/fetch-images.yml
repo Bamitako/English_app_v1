@@ -1,0 +1,49 @@
+name: 単語の画像を取得する
+
+on:
+  workflow_dispatch:
+    inputs:
+      words:
+        description: '取り直したい単語ID（スペース区切り／空欄なら、まだ画像がない単語だけ取得）'
+        required: false
+        default: ''
+      force:
+        description: 'すでにある画像も上書きする'
+        type: boolean
+        default: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pexelsから画像を取得
+        # 入力は環境変数経由で渡す。シェルに直接展開するとコマンド注入になる。
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          FORCE: ${{ inputs.force && '--force' || '' }}
+          WORDS: ${{ inputs.words }}
+        run: node scripts/fetch-images.mjs $FORCE $WORDS
+
+      - name: 取得した画像をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/images
+          if git diff --staged --quiet; then
+            echo "新しく取得できた画像はありませんでした。"
+          else
+            git commit -m "chore: 単語画像を取得"
+            git push
+          fi
