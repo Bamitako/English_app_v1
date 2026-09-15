@@ -10,8 +10,11 @@ export type Word = {
   /** Situation text shown with the image to narrow down an otherwise ambiguous picture. */
   context: string
   emoji: string
-  /** Scene to search stock photos for. The bare word rarely returns a usable picture. */
-  query: string
+  /**
+   * Scene to search stock photos for. The bare word rarely returns a usable picture.
+   * Omitted for words no photo can carry — those stay on the emoji and the situation text.
+   */
+  query?: string
   /** Overrides the derived first-letter hint when a word needs something different. */
   hint?: string
   acceptableAnswers?: string[]

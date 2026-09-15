@@ -15,7 +15,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '友達からペンを1本、返す約束で受け取る',
     emoji: '🖊️',
-    query: 'handing over a pen',
+    query: 'person handing a book to a friend',
   },
   {
     id: 'lend',
@@ -24,7 +24,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '自分の傘を、困っている同僚に渡す',
     emoji: '☂️',
-    query: 'sharing an umbrella',
+    query: 'handing cash money to another person',
   },
   {
     id: 'fold',
@@ -96,7 +96,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'コートをフックに引っ掛けておく',
     emoji: '🧥',
-    query: 'coat hanging on a hook',
+    query: 'winter coat hanging on a wooden hanger',
   },
   {
     id: 'stack',
@@ -141,7 +141,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'プレゼントを紙でくるんでリボンをかける',
     emoji: '🎁',
-    query: 'wrapping a gift with paper',
+    query: 'hands wrapping a present with ribbon',
   },
   {
     id: 'dig',
@@ -177,7 +177,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '逃げる犬を全力で追いかける',
     emoji: '🐕',
-    query: 'dog chasing',
+    query: 'dog running after a ball in a park',
   },
   {
     id: 'wave',
@@ -197,7 +197,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '朝の電車に人がぎゅうぎゅうに詰まっている',
     emoji: '🚃',
-    query: 'crowded train station',
+    query: 'packed subway train full of passengers',
   },
   {
     id: 'dizzy',
@@ -260,7 +260,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '自転車では登れないほど傾きのきつい坂',
     emoji: '⛰️',
-    query: 'steep hill road',
+    query: 'very steep street hill in san francisco',
   },
   {
     id: 'narrow',
@@ -287,7 +287,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: 'アイロンをかけていないシャツ',
     emoji: '👔',
-    query: 'wrinkled shirt',
+    query: 'crumpled shirt that needs ironing',
   },
   {
     id: 'damp',
@@ -296,7 +296,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '完全には乾いていないタオル',
     emoji: '🧺',
-    query: 'wet towel',
+    query: 'wet clothes hanging on a drying rack',
   },
   {
     id: 'stuffy',
@@ -305,7 +305,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '窓を閉め切った部屋の空気がこもっている',
     emoji: '🪟',
-    query: 'closed window with curtains',
+    query: 'electric fan in a hot room',
   },
   {
     id: 'exhausted',
@@ -334,7 +334,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '部屋で上を見上げたときに見える面',
     emoji: '💡',
-    query: 'ceiling light',
+    query: 'white ceiling of an empty room',
   },
   {
     id: 'drawer',
@@ -437,7 +437,6 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: '偶然ではなく、意図してやったと言いたいとき',
     emoji: '🎯',
-    query: 'dart hitting the bullseye',
     acceptableAnswers: ['deliberately', 'intentionally'],
   },
   {
@@ -466,7 +465,6 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: 'わざとではなく、間違えてやってしまったとき',
     emoji: '🤷',
-    query: 'broken cup on the floor',
     acceptableAnswers: ['accidentally', 'by mistake'],
   },
 ]

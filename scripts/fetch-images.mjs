@@ -34,6 +34,8 @@ const existing = new Set(
 )
 
 const targets = WORDS.filter((w) => {
+  // No query means no photo can carry this word — it stays on the emoji.
+  if (!w.query) return false
   if (only.length > 0) return only.includes(w.id)
   return force || !existing.has(w.id)
 })
