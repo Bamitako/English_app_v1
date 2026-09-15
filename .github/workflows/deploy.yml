@@ -32,9 +32,9 @@ jobs:
       # その階層をビルド時に伝える。
       - run: npm run build -- --base=/${{ github.event.repository.name }}/
 
+      # Pages の有効化はリポジトリの Settings から一度だけ手動で行う。
+      # ワークフローのトークンには作成権限がないため、ここでは設定を読むだけ。
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
