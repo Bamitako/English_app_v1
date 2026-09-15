@@ -13,9 +13,9 @@ export const WORDS: Word[] = [
     word: 'borrow',
     meaning: '借りる',
     pos: 'verb',
-    context: '友達からペンを1本、返す約束で受け取る',
-    emoji: '🖊️',
-    query: 'person handing a book to a friend',
+    context: '図書館で本を受け取り、期限までに返す',
+    emoji: '📖',
+    query: 'library book checkout counter',
   },
   {
     id: 'lend',
