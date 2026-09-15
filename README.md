@@ -41,6 +41,18 @@ src/
 
 ## 画像について
 
-`src/images/` に `<単語id>.jpg` の名前で置くと、その単語の問題に自動で表示される。
-コードの編集は不要。置いていない単語は絵文字とシチュエーション文で代替表示されるので、
-1語ずつ差し替えていける。詳細は [`src/images/README.md`](src/images/README.md) を参照。
+Pexelsから50語ぶんを一括取得できる。無料APIキーを取って一度実行するだけ。
+
+```bash
+PEXELS_API_KEY=取得したキー npm run fetch-images
+```
+
+検索ワードは単語ごとに `src/data/words.ts` の `query` に持たせてある（`borrow` →
+"handing over a pen" のように、単語そのままではなく場面で引く）。取得後は目視で
+確認して、意図と違うものは `src/images/<単語id>.jpg` を直接差し替える。抽象語は
+まともな写真が存在しないことが多く、その場合はファイルを置かず絵文字＋
+シチュエーション文の表示に戻すほうがよい。
+
+画像は `src/images/` に `<単語id>.jpg` の名前で置けば自動で表示される。コードの編集は
+不要で、置いていない単語は絵文字で代替表示される。詳細は
+[`src/images/README.md`](src/images/README.md) を参照。

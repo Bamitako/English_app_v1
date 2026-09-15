@@ -15,6 +15,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '友達からペンを1本、返す約束で受け取る',
     emoji: '🖊️',
+    query: 'handing over a pen',
   },
   {
     id: 'lend',
@@ -23,6 +24,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '自分の傘を、困っている同僚に渡す',
     emoji: '☂️',
+    query: 'sharing an umbrella',
   },
   {
     id: 'fold',
@@ -31,6 +33,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '乾いた洗濯物をきれいに重ねていく',
     emoji: '👕',
+    query: 'folding laundry',
   },
   {
     id: 'pour',
@@ -39,6 +42,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'ポットからカップにコーヒーを入れる',
     emoji: '🫖',
+    query: 'pouring coffee into a cup',
   },
   {
     id: 'rinse',
@@ -47,6 +51,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '洗剤の泡を水で流し落とす',
     emoji: '🚿',
+    query: 'washing hands under running water',
   },
   {
     id: 'stir',
@@ -55,6 +60,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'スプーンでスープをぐるぐる混ぜる',
     emoji: '🥄',
+    query: 'stirring soup with a spoon',
   },
   {
     id: 'peel',
@@ -63,6 +69,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'バナナやりんごの外側を取り除く',
     emoji: '🍌',
+    query: 'peeling a banana',
   },
   {
     id: 'wipe',
@@ -71,6 +78,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '布巾でテーブルの表面をきれいにする',
     emoji: '🧽',
+    query: 'wiping a table with a cloth',
   },
   {
     id: 'squeeze',
@@ -79,6 +87,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'レモンを手で押しつぶして果汁を出す',
     emoji: '🍋',
+    query: 'squeezing a lemon',
   },
   {
     id: 'hang',
@@ -87,6 +96,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'コートをフックに引っ掛けておく',
     emoji: '🧥',
+    query: 'coat hanging on a hook',
   },
   {
     id: 'stack',
@@ -95,6 +105,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '皿を上へ上へと重ねていく',
     emoji: '🥞',
+    query: 'stack of plates',
   },
   {
     id: 'spill',
@@ -103,6 +114,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'うっかりコップを倒して水が床に広がる',
     emoji: '💦',
+    query: 'spilled water on the floor',
   },
   {
     id: 'slip',
@@ -111,6 +123,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '濡れた床で足を取られてよろける',
     emoji: '🤸',
+    query: 'wet floor caution sign',
   },
   {
     id: 'bend',
@@ -119,6 +132,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '針金を手でぐにゃりと曲げる',
     emoji: '🪝',
+    query: 'person bending down',
   },
   {
     id: 'wrap',
@@ -127,6 +141,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'プレゼントを紙でくるんでリボンをかける',
     emoji: '🎁',
+    query: 'wrapping a gift with paper',
   },
   {
     id: 'dig',
@@ -135,6 +150,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'シャベルで地面に穴を作る',
     emoji: '⛏️',
+    query: 'digging with a shovel',
   },
   {
     id: 'shake',
@@ -143,6 +159,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: 'ドレッシングのボトルを上下に激しく動かす',
     emoji: '🧴',
+    query: 'shaking a bottle',
   },
   {
     id: 'lean',
@@ -151,6 +168,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '壁に背中を預けて立っている',
     emoji: '🧍',
+    query: 'man leaning against a wall',
   },
   {
     id: 'chase',
@@ -159,6 +177,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '逃げる犬を全力で追いかける',
     emoji: '🐕',
+    query: 'dog chasing',
   },
   {
     id: 'wave',
@@ -167,6 +186,7 @@ export const WORDS: Word[] = [
     pos: 'verb',
     context: '駅のホームで別れ際に手を左右に動かす',
     emoji: '👋',
+    query: 'waving goodbye at a station',
   },
 
   // --- 形容詞 15 ---
@@ -177,6 +197,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '朝の電車に人がぎゅうぎゅうに詰まっている',
     emoji: '🚃',
+    query: 'crowded train station',
   },
   {
     id: 'dizzy',
@@ -185,6 +206,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '立ち上がった瞬間に頭がくらくらする',
     emoji: '😵‍💫',
+    query: 'woman holding her head dizzy',
   },
   {
     id: 'sticky',
@@ -193,6 +215,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: 'はちみつがついた指がくっつく感じ',
     emoji: '🍯',
+    query: 'honey dripping',
   },
   {
     id: 'slippery',
@@ -201,6 +224,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '凍った路面で足元が危ない状態',
     emoji: '🧊',
+    query: 'icy road',
   },
   {
     id: 'spicy',
@@ -209,6 +233,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '唐辛子たっぷりのカレーで口が熱くなる',
     emoji: '🌶️',
+    query: 'red chili peppers',
   },
   {
     id: 'sour',
@@ -217,6 +242,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: 'レモンをかじって思わず顔をしかめる',
     emoji: '😖',
+    query: 'sour face biting lemon',
   },
   {
     id: 'shallow',
@@ -225,6 +251,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '子どもでも足がつくくらいのプール',
     emoji: '🏊',
+    query: 'shallow water at the beach',
   },
   {
     id: 'steep',
@@ -233,6 +260,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '自転車では登れないほど傾きのきつい坂',
     emoji: '⛰️',
+    query: 'steep hill road',
   },
   {
     id: 'narrow',
@@ -241,6 +269,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '人がすれ違えないくらい幅のない路地',
     emoji: '🚶',
+    query: 'narrow alley',
   },
   {
     id: 'blurry',
@@ -249,6 +278,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: 'ピントが合っていない写真',
     emoji: '🌫️',
+    query: 'blurry out of focus lights',
   },
   {
     id: 'wrinkled',
@@ -257,6 +287,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: 'アイロンをかけていないシャツ',
     emoji: '👔',
+    query: 'wrinkled shirt',
   },
   {
     id: 'damp',
@@ -265,6 +296,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '完全には乾いていないタオル',
     emoji: '🧺',
+    query: 'wet towel',
   },
   {
     id: 'stuffy',
@@ -273,6 +305,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '窓を閉め切った部屋の空気がこもっている',
     emoji: '🪟',
+    query: 'closed window with curtains',
   },
   {
     id: 'exhausted',
@@ -281,6 +314,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '残業続きで、もう一歩も動けない状態',
     emoji: '😩',
+    query: 'exhausted tired man at desk',
   },
   {
     id: 'embarrassed',
@@ -289,6 +323,7 @@ export const WORDS: Word[] = [
     pos: 'adjective',
     context: '名前を呼び間違えて顔が赤くなる',
     emoji: '😳',
+    query: 'embarrassed woman covering face',
   },
 
   // --- 名詞 10 ---
@@ -299,6 +334,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '部屋で上を見上げたときに見える面',
     emoji: '💡',
+    query: 'ceiling light',
   },
   {
     id: 'drawer',
@@ -307,6 +343,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '机の手前に引いて開ける収納',
     emoji: '🗄️',
+    query: 'open drawer',
   },
   {
     id: 'sleeve',
@@ -315,6 +352,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: 'シャツの腕を通す部分',
     emoji: '🦾',
+    query: 'rolled up shirt sleeve',
   },
   {
     id: 'wallet',
@@ -323,6 +361,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: 'お札とカードを入れて持ち歩くもの',
     emoji: '👛',
+    query: 'leather wallet',
     acceptableAnswers: ['purse'],
   },
   {
@@ -332,6 +371,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: 'ひねると水が出るキッチンの金具',
     emoji: '🚰',
+    query: 'kitchen faucet running water',
     acceptableAnswers: ['tap'],
   },
   {
@@ -341,6 +381,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '本や食器を並べて置く横板',
     emoji: '📚',
+    query: 'bookshelf',
   },
   {
     id: 'crowd',
@@ -349,6 +390,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: 'スクランブル交差点に集まった大勢の人',
     emoji: '👥',
+    query: 'crowd of people on the street',
   },
   {
     id: 'puddle',
@@ -357,6 +399,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '雨上がりの道路にできた小さな水の溜まり',
     emoji: '🌧️',
+    query: 'puddle reflection after rain',
   },
   {
     id: 'receipt',
@@ -365,6 +408,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '会計のあとに店員から渡される細長い紙',
     emoji: '🧾',
+    query: 'paper receipt',
   },
   {
     id: 'stairs',
@@ -373,6 +417,7 @@ export const WORDS: Word[] = [
     pos: 'noun',
     context: '上の階へ行くために一段ずつ上がるもの',
     emoji: '🪜',
+    query: 'staircase',
   },
 
   // --- 副詞・その他 5 ---
@@ -383,6 +428,7 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: '終電にぎりぎり間に合った、というときの「ぎりぎり」',
     emoji: '⏱️',
+    query: 'running to catch a train',
   },
   {
     id: 'on-purpose',
@@ -391,6 +437,7 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: '偶然ではなく、意図してやったと言いたいとき',
     emoji: '🎯',
+    query: 'dart hitting the bullseye',
     acceptableAnswers: ['deliberately', 'intentionally'],
   },
   {
@@ -400,6 +447,7 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: '本の上下が反対のまま置かれている',
     emoji: '🙃',
+    query: 'hanging upside down',
   },
   {
     id: 'all-of-a-sudden',
@@ -408,6 +456,7 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: '晴れていたのに急に雨が降り出した、というときの「急に」',
     emoji: '⚡',
+    query: 'lightning in a storm sky',
     acceptableAnswers: ['suddenly', 'out of nowhere'],
   },
   {
@@ -417,6 +466,7 @@ export const WORDS: Word[] = [
     pos: 'adverb',
     context: 'わざとではなく、間違えてやってしまったとき',
     emoji: '🤷',
+    query: 'broken cup on the floor',
     acceptableAnswers: ['accidentally', 'by mistake'],
   },
 ]
